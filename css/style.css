@@ -60,7 +60,8 @@ h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.015em;line-height:1.15}
 .seg{display:inline-flex;border:1px solid var(--line-2);border-radius:var(--radius);overflow:hidden;background:transparent;cursor:pointer;font-family:var(--mono);font-size:.72rem;padding:0}
 .seg span{padding:8px 10px;color:var(--muted)}
 .seg span.on{background:var(--surface-2);color:var(--ink)}
-.nav-cv{padding:7px 14px;font-size:.85rem}
+.nav-cv,.nav-gh{padding:7px 14px;font-size:.85rem}
+.nav-gh{gap:7px}
 .burger{display:none;flex-direction:column;gap:4px;width:36px;height:34px;border:1px solid var(--line-2);border-radius:var(--radius);background:transparent;cursor:pointer;align-items:center;justify-content:center}
 .burger span{width:16px;height:1.5px;background:var(--ink);transition:.2s}
 .burger[aria-expanded="true"] span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}
@@ -236,6 +237,8 @@ h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.015em;line-height:1.15}
   .nav-links a.active{box-shadow:none;color:var(--accent)}
   .burger{display:flex}
   .nav-cv{display:none}
+  .nav-gh{padding:7px 9px}
+  .nav-gh span{display:none}
 }
 @media (max-width:680px){
   :root{--gut:16px}
