@@ -2,77 +2,57 @@
 const I18N = {
   fr:{
     "skip":"Aller au contenu",
-    "nav.approach":"Approche","nav.projects":"Projets","nav.skills":"Compétences","nav.path":"Parcours","nav.contact":"Contact","nav.cv":"CV",
-    "hero.badge":"PFE 6 mois · France · janvier → juillet 2027",
-    "hero.t1":"Je transforme une","hero.t2":"faille technique","hero.t3":"en risque métier décidable.",
-    "hero.sub":"Élève ingénieur en cybersécurité (Bac+5, ENSA El Jadida). Je conçois la chaîne complète : pentest web/API, pipelines DevSecOps, EASM & Cyber Threat Intelligence — puis je la relie à la gouvernance EBIOS RM et ISO 27001. Du code qui casse jusqu'au registre de risques du RSSI.",
+    "nav.method":"Méthode","nav.projects":"Projets","nav.skills":"Compétences","nav.path":"Parcours","nav.contact":"Contact","nav.cv":"CV",
+    "hero.label":"Ingénieur cybersécurité · PFE 2027",
+    "hero.sub":"Élève ingénieur en dernière année à l'ENSA El Jadida. Je travaille sur la conformité et la gestion des risques (EBIOS RM, ISO 27001), l'automatisation de la sécurité (DevSecOps), le pentest web/API et la Cyber Threat Intelligence, avec un objectif constant : relier une vulnérabilité technique au risque qu'elle fait porter à l'organisation.",
+    "hero.k1":"Recherche","hero.v1":"Stage de fin d'études, 6 mois","hero.k2":"Période","hero.v2":"Janvier → juillet 2027","hero.k3":"Lieu","hero.v3":"France, en présentiel","hero.k4":"Formation","hero.v4":"Cycle ingénieur CCN, Bac+5 (2027)",
     "hero.ctaProjects":"Voir les projets","hero.ctaCv":"Télécharger le CV",
-    "hero.s1":"corrélation CTI accélérée","hero.s2":"vulnérabilités documentées en pentest","hero.s3":"contrôles ISO 27001 évalués","hero.s4":"français & anglais",
-    "hero.tag":"Disponible · présentiel France",
-    "flow.kicker":"Le fil rouge","flow.title":"Du bug au risque métier",
-    "flow.lead":"Une même vulnérabilité suit tout mon travail : détectée par le pipeline, exploitée en pentest, traduite en TTP MITRE, inscrite au registre de risques, et restituée au décideur. C'est cette continuité qui fait la différence.",
-    "flow.n1t":"Pipeline DevSecOps","flow.n1s":"SAST · SCA · secrets · Trivy bloquant · DAST · SBOM",
-    "flow.n2t":"Pentest web / API","flow.n2s":"IDOR cross-tenant exploité — CVSS 9,1",
-    "flow.n3t":"MITRE ATT&CK","flow.n3s":"la faille devient une TTP (T1078 / T1190)",
-    "flow.n4t":"Registre de risques","flow.n4s":"GRC-as-Code · SARIF ingéré · risque résiduel recalculé",
-    "flow.n5t":"Décision RSSI","flow.n5s":"tableau de bord CISO · EBIOS RM · ISO 27001",
-    "about.kicker":"À propos","about.title":"Deux langages, un seul profil",
-    "about.p1":"Beaucoup savent attaquer. D'autres savent auditer. Mon pari : parler les deux. Je descends jusqu'au payload et je remonte jusqu'au comité de direction, sans perdre le fil entre les deux.",
-    "about.modeBiz":"Lecture RSSI","about.modeTech":"Lecture technique",
-    "about.biz":"Je priorise par le risque réel : une vulnérabilité est reliée à un scénario métier (EBIOS RM), chiffrée, inscrite au registre et suivie jusqu'à la remédiation. Le RSSI obtient une décision, pas une liste de 500 alertes.",
-    "about.tech":"Backend 100 % asynchrone (FastAPI, Celery, Redis), isolation multi-tenant stricte, pipelines CI à gates bloquantes, détection mappée MITRE sur Loki/Grafana, exploitation JWT / IDOR / RAG prouvée puis corrigée et rejouée. Tout est conteneurisé et reproductible.",
-    "about.f1t":"Autonome & de bout en bout","about.f1p":"Cyber360, TenantGuard et GRC-as-Code conçus et développés seul, du backend asynchrone au tableau de bord.",
-    "about.f2t":"Preuves, pas de promesses","about.f2p":"Chaque chiffre est rejouable : benchmarks, captures, rapports d'audit et post-mortem versionnés sur GitHub.",
-    "about.f3t":"Les limites assumées","about.f3p":"Je documente ce qui n'est pas détecté autant que ce qui l'est. L'honnêteté technique est un atout, pas un aveu.",
-    "proj.kicker":"Dossiers techniques","proj.title":"Projets",
-    "proj.lead":"Chaque projet est présenté comme un dossier : le problème, l'architecture, ce que j'ai réellement fait, les preuves chiffrées — et les limites.",
-    "proj.fAll":"Tout","proj.fGrc":"GRC & Conformité","proj.fOff":"Offensif","proj.fDev":"DevSecOps","proj.fAi":"IA & Data",
-    "proj.open":"Ouvrir le dossier",
-    "skills.kicker":"Boîte à outils","skills.title":"Compétences",
-    "certs.kicker":"Validé","certs.title":"Certifications","certs.aws":"Graduate — Engineering Operations","certs.ftnt":"Certified Fundamentals Cybersecurity","certs.isc2":"Candidate","certs.credly":"Vérifier sur Credly",
-    "path.kicker":"Parcours","path.title":"Formation & expériences",
-    "contact.kicker":"Travaillons ensemble","contact.title":"Recherche un PFE de 6 mois en cybersécurité",
-    "contact.lead":"Présentiel en France, de janvier à juillet 2027. Convention de stage fournie par l'ENSA. GRC, DevSecOps, SOC, pentest, CTI — ou tout poste où relier la technique et le risque fait la différence.",
-    "contact.cvLong":"CV détaillé (PDF)","contact.phone":"Téléphone","contact.loc":"Localisation","contact.locv":"El Jadida, Maroc · mobilité France",
-    "foot.note":"Conçu et codé à la main · contenu vérifiable",
-    "m.problem":"Le problème","m.archi":"Architecture","m.did":"Ce que j'ai fait","m.proof":"Preuves","m.limits":"Limites connues","m.repo":"Voir le dépôt","m.role":"Rôle","m.when":"Période","m.stack":"Stack"
+    "m1":"accélération de la corrélation CTI (Cyber360)","m2":"vulnérabilités exploitées puis corrigées (TenantGuard)","m3":"contrôles ISO 27001:2022 évalués (GRC-as-Code)","m4":"paires de copies comparées (CheatTrace)",
+    "method.label":"Méthode","method.title":"De la vulnérabilité à la décision","method.lead":"Mes projets suivent la même chaîne. Une faille détectée dans le code n'a de valeur que si elle aboutit à une décision de traitement du risque.",
+    "s1t":"Détecter","s1p":"Pipeline CI : SAST, SCA, secrets, scan d'image bloquant, DAST, SBOM.",
+    "s2t":"Exploiter","s2p":"Pentest web/API : preuve d'exploitation, score CVSS v3.1, classement OWASP.",
+    "s3t":"Qualifier","s3p":"Traduction en techniques MITRE ATT&CK et en règles de détection.",
+    "s4t":"Évaluer","s4p":"Rattachement à un scénario EBIOS RM et aux contrôles ISO 27001 ; risque résiduel recalculé.",
+    "s5t":"Restituer","s5p":"Tableau de bord RSSI et plan de traitement priorisé.",
+    "proj.label":"Projets","proj.title":"Dossiers techniques","proj.lead":"Pour chaque projet : le contexte, l'architecture, mon travail, les résultats mesurés et les limites connues.",
+    "proj.fAll":"Tous","proj.fGrc":"GRC & conformité","proj.fOff":"Offensif","proj.fDev":"DevSecOps","proj.fAi":"IA & données","proj.open":"Lire le dossier →",
+    "skills.label":"Compétences","skills.title":"Domaines et outils",
+    "certs.title":"Certifications","certs.credly":"Vérifier les badges sur Credly →",
+    "lang.title":"Langues","lang.fr":"Français","lang.en":"Anglais","lang.ar":"Arabe","lang.native":"Langue maternelle",
+    "asso.title":"Associations","asso.a1":"Bootcamp","asso.a2":"Trésorier",
+    "path.label":"Parcours","path.title":"Formation et expériences",
+    "contact.label":"Contact","contact.title":"Disponible pour un stage de fin d'études",
+    "contact.lead":"Six mois en France, de janvier à juillet 2027, convention fournie par l'ENSA. Je suis intéressé par les postes en GRC, DevSecOps, SOC, pentest ou CTI.",
+    "contact.write":"Écrire un email","contact.cvLong":"CV détaillé (PDF)","contact.phone":"Téléphone","contact.loc":"Localisation","contact.locv":"El Jadida, Maroc · mobile en France",
+    "foot.src":"Code source du site",
+    "m.problem":"Contexte","m.archi":"Architecture","m.did":"Mon travail","m.limits":"Limites connues","m.repo":"Voir le dépôt GitHub","m.role":"Rôle","m.when":"Période"
   },
   en:{
     "skip":"Skip to content",
-    "nav.approach":"Approach","nav.projects":"Projects","nav.skills":"Skills","nav.path":"Background","nav.contact":"Contact","nav.cv":"CV",
-    "hero.badge":"6-month final internship · France · Jan → Jul 2027",
-    "hero.t1":"I turn a","hero.t2":"technical flaw","hero.t3":"into a business risk you can act on.",
-    "hero.sub":"Final-year cybersecurity engineering student (MSc level, ENSA El Jadida). I build the whole chain — web/API pentesting, DevSecOps pipelines, EASM & Cyber Threat Intelligence — then tie it back to EBIOS RM and ISO 27001 governance. From the code that breaks to the CISO's risk register.",
+    "nav.method":"Method","nav.projects":"Projects","nav.skills":"Skills","nav.path":"Background","nav.contact":"Contact","nav.cv":"CV",
+    "hero.label":"Cybersecurity engineer · 2027 internship",
+    "hero.sub":"Final-year engineering student at ENSA El Jadida. I work on compliance and risk management (EBIOS RM, ISO 27001), security automation (DevSecOps), web/API pentesting and Cyber Threat Intelligence, with one constant goal: linking a technical vulnerability to the risk it creates for the organisation.",
+    "hero.k1":"Seeking","hero.v1":"6-month final-year internship","hero.k2":"Period","hero.v2":"January → July 2027","hero.k3":"Location","hero.v3":"France, on-site","hero.k4":"Education","hero.v4":"Engineering degree, CCN (MSc level, 2027)",
     "hero.ctaProjects":"See the projects","hero.ctaCv":"Download CV",
-    "hero.s1":"CTI correlation speed-up","hero.s2":"vulnerabilities documented in a pentest","hero.s3":"ISO 27001 controls assessed","hero.s4":"French & English",
-    "hero.tag":"Available · on-site in France",
-    "flow.kicker":"The through-line","flow.title":"From bug to business risk",
-    "flow.lead":"One vulnerability follows my whole workflow: caught by the pipeline, exploited in a pentest, translated into a MITRE TTP, recorded in the risk register, and reported to the decision-maker. That continuity is the point.",
-    "flow.n1t":"DevSecOps pipeline","flow.n1s":"SAST · SCA · secrets · blocking Trivy · DAST · SBOM",
-    "flow.n2t":"Web / API pentest","flow.n2s":"cross-tenant IDOR exploited — CVSS 9.1",
-    "flow.n3t":"MITRE ATT&CK","flow.n3s":"the flaw becomes a TTP (T1078 / T1190)",
-    "flow.n4t":"Risk register","flow.n4s":"GRC-as-Code · SARIF ingested · residual risk recomputed",
-    "flow.n5t":"CISO decision","flow.n5s":"CISO dashboard · EBIOS RM · ISO 27001",
-    "about.kicker":"About","about.title":"Two languages, one profile",
-    "about.p1":"Plenty of people can attack. Others can audit. My bet: speak both. I go down to the payload and back up to the boardroom without losing the thread in between.",
-    "about.modeBiz":"CISO view","about.modeTech":"Technical view",
-    "about.biz":"I prioritise by real risk: a vulnerability is tied to a business scenario (EBIOS RM), scored, recorded in the register and tracked to remediation. The CISO gets a decision, not a list of 500 alerts.",
-    "about.tech":"Fully async backend (FastAPI, Celery, Redis), strict multi-tenant isolation, CI pipelines with blocking gates, MITRE-mapped detection on Loki/Grafana, proven JWT / IDOR / RAG exploitation then fixed and replayed. Everything containerised and reproducible.",
-    "about.f1t":"Solo & end-to-end","about.f1p":"Cyber360, TenantGuard and GRC-as-Code designed and built alone, from async backend to dashboard.",
-    "about.f2t":"Proof, not promises","about.f2p":"Every figure is replayable: benchmarks, screenshots, audit reports and post-mortems versioned on GitHub.",
-    "about.f3t":"Limits owned","about.f3p":"I document what isn't detected as much as what is. Technical honesty is an asset, not a confession.",
-    "proj.kicker":"Technical dossiers","proj.title":"Projects",
-    "proj.lead":"Every project is a dossier: the problem, the architecture, what I actually did, the hard numbers — and the limits.",
-    "proj.fAll":"All","proj.fGrc":"GRC & Compliance","proj.fOff":"Offensive","proj.fDev":"DevSecOps","proj.fAi":"AI & Data",
-    "proj.open":"Open the dossier",
-    "skills.kicker":"Toolbox","skills.title":"Skills",
-    "certs.kicker":"Verified","certs.title":"Certifications","certs.aws":"Graduate — Engineering Operations","certs.ftnt":"Certified Fundamentals Cybersecurity","certs.isc2":"Candidate","certs.credly":"Verify on Credly",
-    "path.kicker":"Background","path.title":"Education & experience",
-    "contact.kicker":"Let's work together","contact.title":"Looking for a 6-month cybersecurity internship",
-    "contact.lead":"On-site in France, January to July 2027. Internship agreement provided by ENSA. GRC, DevSecOps, SOC, pentesting, CTI — or any role where connecting tech and risk makes the difference.",
-    "contact.cvLong":"Detailed CV (PDF)","contact.phone":"Phone","contact.loc":"Location","contact.locv":"El Jadida, Morocco · mobile to France",
-    "foot.note":"Hand-designed & hand-coded · verifiable content",
-    "m.problem":"The problem","m.archi":"Architecture","m.did":"What I did","m.proof":"Proof","m.limits":"Known limits","m.repo":"View the repo","m.role":"Role","m.when":"Period","m.stack":"Stack"
+    "m1":"faster CTI correlation (Cyber360)","m2":"vulnerabilities exploited then fixed (TenantGuard)","m3":"ISO 27001:2022 controls assessed (GRC-as-Code)","m4":"exam-sheet pairs compared (CheatTrace)",
+    "method.label":"Method","method.title":"From vulnerability to decision","method.lead":"My projects follow the same chain. A flaw found in code only matters if it ends in a risk-treatment decision.",
+    "s1t":"Detect","s1p":"CI pipeline: SAST, SCA, secrets, blocking image scan, DAST, SBOM.",
+    "s2t":"Exploit","s2p":"Web/API pentest: proof of exploitation, CVSS v3.1 score, OWASP mapping.",
+    "s3t":"Qualify","s3p":"Translation into MITRE ATT&CK techniques and detection rules.",
+    "s4t":"Assess","s4p":"Linked to an EBIOS RM scenario and ISO 27001 controls; residual risk recomputed.",
+    "s5t":"Report","s5p":"CISO dashboard and a prioritised treatment plan.",
+    "proj.label":"Projects","proj.title":"Technical dossiers","proj.lead":"For each project: context, architecture, my work, measured results and known limits.",
+    "proj.fAll":"All","proj.fGrc":"GRC & compliance","proj.fOff":"Offensive","proj.fDev":"DevSecOps","proj.fAi":"AI & data","proj.open":"Read the dossier →",
+    "skills.label":"Skills","skills.title":"Domains and tools",
+    "certs.title":"Certifications","certs.credly":"Verify badges on Credly →",
+    "lang.title":"Languages","lang.fr":"French","lang.en":"English","lang.ar":"Arabic","lang.native":"Native",
+    "asso.title":"Associations","asso.a1":"Bootcamp","asso.a2":"Treasurer",
+    "path.label":"Background","path.title":"Education and experience",
+    "contact.label":"Contact","contact.title":"Available for a final-year internship",
+    "contact.lead":"Six months in France, January to July 2027, internship agreement provided by ENSA. I am interested in GRC, DevSecOps, SOC, pentesting or CTI roles.",
+    "contact.write":"Send an email","contact.cvLong":"Detailed CV (PDF)","contact.phone":"Phone","contact.loc":"Location","contact.locv":"El Jadida, Morocco · mobile to France",
+    "foot.src":"Site source code",
+    "m.problem":"Context","m.archi":"Architecture","m.did":"My work","m.limits":"Known limits","m.repo":"View the GitHub repo","m.role":"Role","m.when":"Period"
   }
 };
 
@@ -152,8 +132,8 @@ const PROJECTS = [
     id:"grc", cats:["grc","devsecops"], tag:"perso", tagLabel:{fr:"Projet perso",en:"Personal project"},
     cover:"assets/img/grc/heatmap.jpg",
     title:"GRC-as-Code",
-    sub:{fr:"Piloter la conformité d'un centre d'imagerie médicale comme on pilote du code.",
-         en:"Running a medical-imaging centre's compliance the way you run code."},
+    sub:{fr:"Plateforme de conformité « as code » appliquée à un centre d'imagerie médicale (étude de cas).",
+         en:"A compliance-as-code platform applied to a medical imaging centre (case study)."},
     metric:{v:"93",fr:"contrôles ISO 27001:2022 évalués (SoA)",en:"ISO 27001:2022 controls assessed (SoA)"},
     chips:["EBIOS RM","ISO 27001","Typer","FastAPI","Streamlit","YAML","SARIF","NIST CSF 2.0"],
     when:{fr:"07 → 09/2026",en:"Jul → Sep 2026"},
@@ -184,7 +164,7 @@ const PROJECTS = [
     repo:"https://github.com/h-4mza/grc-as-code-imaging-center"
   },
   {
-    id:"cheattrace", cats:["ia","offensive"], tag:"acad", tagLabel:{fr:"Académique · PFE",en:"Academic · final project"},
+    id:"cheattrace", cats:["ia","offensive"], tag:"acad", tagLabel:{fr:"Académique · projet de 2e année",en:"Academic · 2nd-year project"},
     cover:"assets/img/cheattrace/dashboard.jpg",
     title:"CheatTrace",
     sub:{fr:"Plateforme forensique de détection de fraude académique par IA, architecture multi-agents.",
@@ -218,7 +198,7 @@ const PROJECTS = [
       {img:"assets/img/cheattrace/n8n_workflow.jpg",wide:true,fr:"Orchestration du workflow (n8n)",en:"Workflow orchestration (n8n)"},
       {img:"assets/img/cheattrace/registre.jpg",wide:true,fr:"Registre forensique des investigations",en:"Forensic register of investigations"}
     ],
-    repo:null
+    repo:"https://github.com/h-4mza/plateforme-confiance-numerique"
   },
   {
     id:"nftshieldx", cats:["offensive","ia"], tag:"acad", tagLabel:{fr:"Académique · équipe de 4",en:"Academic · team of 4"},
@@ -332,18 +312,13 @@ function tgCover(){
 
 /* ===================== SKILLS ===================== */
 const SKILLS = [
-  {icon:"🛡️",t:{fr:"Gouvernance, Risques & Conformité",en:"Governance, Risk & Compliance"},
-   items:["ISO 27001:2022","EBIOS RM","NIS2","RGPD / GDPR","HDS","NIST CSF 2.0","SoA","STRIDE"]},
-  {icon:"🎯",t:{fr:"Sécurité offensive & défensive",en:"Offensive & defensive security"},
-   items:["Pentest web/API","Burp Suite","jwt_tool","ffuf","OWASP API Top 10","OWASP LLM Top 10","CVSS v3.1","MITRE ATT&CK","CTI","EASM","Kali","Wireshark"]},
-  {icon:"⚙️",t:{fr:"DevSecOps & CI/CD",en:"DevSecOps & CI/CD"},
-   items:["GitLab CI","Semgrep","Gitleaks","pip-audit","Trivy","OWASP ZAP","Syft / SBOM","SARIF","pytest"]},
-  {icon:"🧠",t:{fr:"IA & Données",en:"AI & Data"},
-   items:["LLM (Gemini)","RAG","CrewAI","SBERT","TF-IDF","OCR multimodal","ChromaDB","NetworkX","n8n","scikit-learn"]},
-  {icon:"💻",t:{fr:"Développement",en:"Development"},
-   items:["Python","FastAPI","Flask","Celery","SQLAlchemy","Typer","React","TypeScript","Node/Express","Solidity"]},
-  {icon:"🖧",t:{fr:"Systèmes, Réseaux & Cloud",en:"Systems, Networks & Cloud"},
-   items:["Linux","Docker / Compose","PostgreSQL","MongoDB","Redis","TCP/IP","VLAN","IPsec","FortiGate","Active Directory","GNS3"]}
+  {t:{fr:"Gouvernance, risques et conformité",en:"Governance, risk and compliance"},items:"ISO 27001:2022, EBIOS RM, NIS2, RGPD, HDS, NIST CSF 2.0, déclaration d'applicabilité (SoA), modélisation STRIDE"},
+  {t:{fr:"Sécurité offensive",en:"Offensive security"},items:"Pentest web/API, Burp Suite, jwt_tool, ffuf, OWASP API Top 10, OWASP Top 10 LLM, CVSS v3.1, Kali Linux"},
+  {t:{fr:"Détection et renseignement",en:"Detection and intelligence"},items:"MITRE ATT&CK, CTI, EASM, Loki, Promtail, Grafana, Wireshark, digital forensics"},
+  {t:{fr:"DevSecOps et CI/CD",en:"DevSecOps and CI/CD"},items:"GitLab CI, Semgrep, Gitleaks, pip-audit, Trivy, OWASP ZAP, SBOM (Syft), SARIF, pytest"},
+  {t:{fr:"Développement",en:"Development"},items:"Python (FastAPI, Flask, Celery, SQLAlchemy, Typer), SQL, TypeScript, React, Node.js, Solidity"},
+  {t:{fr:"Systèmes, réseaux et cloud",en:"Systems, networks and cloud"},items:"Linux, Docker, PostgreSQL, Redis, TCP/IP, VLAN, IPsec, FortiGate, Active Directory, GNS3"},
+  {t:{fr:"IA et données",en:"AI and data"},items:"LLM (Gemini), RAG, CrewAI, SBERT, TF-IDF, OCR multimodal, ChromaDB, NetworkX, n8n"}
 ];
 
 /* ===================== TIMELINE ===================== */
@@ -377,40 +352,36 @@ const tx = o => (o && typeof o==="object") ? (o[LANG] ?? o.fr) : o;
 
 function renderProjects(filter="all"){
   const grid = document.getElementById("projGrid");
-  grid.innerHTML = PROJECTS.filter(p=>filter==="all"||p.cats.includes(filter)).map(p=>`
-    <article class="pcard reveal" data-id="${p.id}" tabindex="0" role="button" aria-label="${tx(p.title)}">
+  const list = PROJECTS.filter(p=>filter==="all"||p.cats.includes(filter));
+  grid.innerHTML = list.map(p=>`
+    <article class="pcard" data-id="${p.id}" tabindex="0" role="button" aria-label="${tx(p.title)}">
       <div class="pcard-cover">
-        ${p.coverHtml?tgCover():`<img src="${p.cover}" alt="${tx(p.title)}" loading="lazy" />`}
-        <div class="pcard-tags"><span class="ptag ${p.tag}">${tx(p.tagLabel)}</span></div>
+        ${p.coverHtml?tgCover():`<img src="${p.cover}" alt="" loading="lazy" />`}
       </div>
       <div class="pcard-body">
+        <div class="pmeta"><span class="kind">${tx(p.tagLabel)}</span><span>${tx(p.when)}</span></div>
         <h3>${tx(p.title)}</h3>
         <p class="pcard-sub">${tx(p.sub)}</p>
         <div class="pcard-metric"><b>${p.metric.v}</b><span>${tx(p.metric)}</span></div>
-        <div class="pchips">${p.chips.slice(0,5).map(c=>`<span>${c}</span>`).join("")}</div>
-        <span class="pcard-open">${T("proj.open")} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <div class="pchips">${p.chips.slice(0,6).map(c=>`<span>${c}</span>`).join("")}</div>
+        <span class="pcard-open">${T("proj.open")}</span>
       </div>
     </article>`).join("");
   grid.querySelectorAll(".pcard").forEach(c=>{
     c.addEventListener("click",()=>openModal(c.dataset.id));
     c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openModal(c.dataset.id);}});
   });
-  observeReveal();
 }
 
 function renderSkills(){
-  document.getElementById("skillGrid").innerHTML = SKILLS.map(s=>`
-    <div class="skill-card reveal"><h3><i>${s.icon}</i>${tx(s.t)}</h3>
-      <ul>${s.items.map(i=>`<li>${i}</li>`).join("")}</ul></div>`).join("");
+  document.getElementById("skillGrid").innerHTML = SKILLS.map(s=>`<div><dt>${tx(s.t)}</dt><dd>${s.items}</dd></div>`).join("");
 }
 
 function renderTimeline(){
   document.getElementById("timeline").innerHTML = TIMELINE.map(e=>`
-    <div class="tl-item ${e.kind} reveal">
-      <span class="tl-when">${tx(e.when)}</span>
-      <h3>${tx(e.title)}<span class="tl-kind">${e.kind==="xp"?(LANG==="fr"?"Expérience":"Experience"):(LANG==="fr"?"Formation":"Education")}</span></h3>
-      <div class="tl-org">${e.org}</div>
-      <p>${tx(e.p)}</p>
+    <div class="tl-item">
+      <div class="tl-when">${tx(e.when)}<span class="tl-kind">${e.kind==="xp"?(LANG==="fr"?"Expérience":"Experience"):(LANG==="fr"?"Formation":"Education")}</span></div>
+      <div><h3>${tx(e.title)}</h3><div class="tl-org">${e.org}</div><p>${tx(e.p)}</p></div>
     </div>`).join("");
 }
 
@@ -430,12 +401,13 @@ function openModal(id){
       </figure>`).join("")}</div>
     ${p.note?`<p class="m-note">${tx(p.note)}</p>`:""}` : "";
   modalBody.innerHTML = `
-    <div class="m-tags"><span class="ptag ${p.tag}">${tx(p.tagLabel)}</span></div>
+    <p class="label">${tx(p.tagLabel)}</p>
     <div class="m-head"><h2>${tx(p.title)}</h2></div>
-    <div class="m-meta">
-      <span><b>${T("m.when")} :</b> ${tx(p.when)}</span>
-      <span><b>${T("m.role")} :</b> ${tx(p.role)}</span>
-    </div>
+    <dl class="sheet m-meta">
+      <div><dt>${T("m.when")}</dt><dd>${tx(p.when)}</dd></div>
+      <div><dt>${T("m.role")}</dt><dd>${tx(p.role)}</dd></div>
+      <div><dt>Stack</dt><dd>${p.chips.join(", ")}</dd></div>
+    </dl>
     <div class="m-stats">${p.proof.map(s=>`<div class="m-stat"><b>${s.v}</b><span>${tx(s)}</span></div>`).join("")}</div>
     <div class="m-block"><h4>${T("m.problem")}</h4><p>${tx(p.problem)}</p></div>
     <div class="m-block"><h4>${T("m.archi")}</h4><p>${tx(p.archi)}</p></div>
@@ -443,7 +415,7 @@ function openModal(id){
     ${p.extraHtml?tenantguardExtra(LANG):""}
     ${gallery}
     <div class="m-block limits"><h4>${T("m.limits")}</h4><p>${tx(p.limits)}</p></div>
-    ${p.repo?`<a class="btn btn-primary m-repo" href="${p.repo}" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 5 18 5.3 18 5.3c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>${T("m.repo")}</a>`:""}
+    ${p.repo?`<a class="btn btn-line m-repo" href="${p.repo}" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 5 18 5.3 18 5.3c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>${T("m.repo")}</a>`:""}
   `;
   modalBody.querySelectorAll("img[data-full]").forEach(im=>im.addEventListener("click",()=>openLightbox(im.dataset.full)));
   modal.classList.add("open"); modal.setAttribute("aria-hidden","false");
@@ -472,9 +444,7 @@ function applyLang(){
     const v = I18N[LANG][el.dataset.i18n];
     if(v!=null) el.textContent = v;
   });
-  document.querySelectorAll(".lang-toggle [data-lang]").forEach(s=>s.classList.toggle("on",s.dataset.lang===LANG));
-  // about mode text refresh
-  setAboutMode(document.getElementById("modeTech").getAttribute("aria-selected")==="true"?"tech":"biz");
+  document.querySelectorAll("#langToggle [data-lang]").forEach(s=>s.classList.toggle("on",s.dataset.lang===LANG));
   renderProjects(currentFilter);
   renderSkills(); renderTimeline();
 }
@@ -488,20 +458,9 @@ function setTheme(t){document.documentElement.setAttribute("data-theme",t);local
 (function initTheme(){const saved=localStorage.getItem("theme");if(saved)document.documentElement.setAttribute("data-theme",saved);})();
 themeToggle.addEventListener("click",()=>{
   const cur = document.documentElement.getAttribute("data-theme")
-    || (matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+    || "dark";
   setTheme(cur==="dark"?"light":"dark");
 });
-
-/* ===================== about mode ===================== */
-const modeBiz=document.getElementById("modeBiz"), modeTech=document.getElementById("modeTech"), aboutMode=document.getElementById("aboutMode");
-function setAboutMode(m){
-  const biz = m==="biz";
-  modeBiz.classList.toggle("on",biz); modeTech.classList.toggle("on",!biz);
-  modeBiz.setAttribute("aria-selected",biz); modeTech.setAttribute("aria-selected",!biz);
-  aboutMode.textContent = I18N[LANG][biz?"about.biz":"about.tech"];
-}
-modeBiz.addEventListener("click",()=>setAboutMode("biz"));
-modeTech.addEventListener("click",()=>setAboutMode("tech"));
 
 /* ===================== filters ===================== */
 let currentFilter="all";
@@ -512,33 +471,18 @@ document.getElementById("filters").addEventListener("click",e=>{
 });
 
 /* ===================== reveal + nav ===================== */
-let io;
-function observeReveal(){
-  if(!io) io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target);}}),{threshold:.12,rootMargin:"0px 0px -40px 0px"});
-  document.querySelectorAll(".reveal:not(.in)").forEach(el=>io.observe(el));
-}
 const nav=document.getElementById("nav");
-addEventListener("scroll",()=>nav.classList.toggle("scrolled",scrollY>12),{passive:true});
 // active link
 const navObs=new IntersectionObserver(es=>es.forEach(en=>{
   if(en.isIntersecting){const id=en.target.id;document.querySelectorAll(".nav-links a").forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+id));}
 }),{rootMargin:"-45% 0px -50% 0px"});
-["approche","projets","competences","parcours","contact"].forEach(id=>{const el=document.getElementById(id);el&&navObs.observe(el);});
+["methode","projets","competences","parcours","contact"].forEach(id=>{const el=document.getElementById(id);el&&navObs.observe(el);});
 
 /* burger */
 const burger=document.getElementById("burger"), navLinks=document.querySelector(".nav-links");
 burger.addEventListener("click",()=>{const o=navLinks.classList.toggle("open");burger.setAttribute("aria-expanded",o);});
 navLinks.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{navLinks.classList.remove("open");burger.setAttribute("aria-expanded",false);}));
 
-/* flow animation */
-(function flowAnim(){
-  const nodes=[...document.querySelectorAll("#flow .flow-node")]; if(!nodes.length)return;
-  let i=0; setInterval(()=>{nodes.forEach(n=>n.classList.remove("active"));nodes[i].classList.add("active");i=(i+1)%nodes.length;},1400);
-  nodes[0].classList.add("active");
-})();
-
 /* ===================== init ===================== */
 document.getElementById("year").textContent=new Date().getFullYear();
-setAboutMode("biz");
 applyLang();
-observeReveal();
