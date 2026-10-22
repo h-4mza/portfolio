@@ -458,7 +458,7 @@ function setTheme(t){document.documentElement.setAttribute("data-theme",t);local
 (function initTheme(){const saved=localStorage.getItem("theme");if(saved)document.documentElement.setAttribute("data-theme",saved);})();
 themeToggle.addEventListener("click",()=>{
   const cur = document.documentElement.getAttribute("data-theme")
-    || "dark";
+    || "light";
   setTheme(cur==="dark"?"light":"dark");
 });
 
