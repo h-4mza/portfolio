@@ -141,6 +141,12 @@ h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.015em;line-height:1.15}
 .tg-pipe{display:flex;flex-wrap:wrap;gap:6px}
 .tg-pipe span{font-family:var(--mono);font-size:.66rem;color:#aeb4bf;border:1px solid #2e3440;padding:2px 7px;border-radius:3px}
 
+/* CTF generated cover */
+.ctf-cover{justify-content:space-between;padding:22px 26px}
+.ctf-rank{display:flex;align-items:baseline;gap:14px;color:#aeb4bf}
+.ctf-n{font-size:3.2rem;line-height:1;font-weight:500;color:#3fbf8f;letter-spacing:-.02em}
+.ctf-k{font-size:.68rem;letter-spacing:.12em}
+
 /* skills */
 .skills{margin:0 0 56px;border-top:1px solid var(--line)}
 .skills>div{display:grid;grid-template-columns:260px 1fr;gap:24px;padding:16px 0;border-bottom:1px solid var(--line)}

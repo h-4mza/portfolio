@@ -4,10 +4,10 @@ const I18N = {
     "skip":"Aller au contenu",
     "nav.method":"Méthode","nav.projects":"Projets","nav.skills":"Compétences","nav.path":"Parcours","nav.contact":"Contact","nav.cv":"CV",
     "hero.label":"Ingénieur cybersécurité · PFE 2027",
-    "hero.sub":"Élève ingénieur en dernière année à l'ENSA El Jadida. Je travaille sur la conformité et la gestion des risques (EBIOS RM, ISO 27001), l'automatisation de la sécurité (DevSecOps), le pentest web/API et la Cyber Threat Intelligence, avec un objectif constant : relier une vulnérabilité technique au risque qu'elle fait porter à l'organisation.",
-    "hero.k1":"Recherche","hero.v1":"Stage de fin d'études, 6 mois","hero.k2":"Période","hero.v2":"Janvier → juillet 2027","hero.k3":"Lieu","hero.v3":"France ou Maroc, en présentiel","hero.k4":"Formation","hero.v4":"Cycle ingénieur CCN, Bac+5 (2027)",
+    "hero.sub":"Élève ingénieur en dernière année à l'ENSA El Jadida. Je travaille sur la conformité et la gestion des risques (EBIOS RM, ISO 27001), l'automatisation de la sécurité (DevSecOps), le pentest web/API et la Cyber Threat Intelligence, avec un objectif constant : relier une vulnérabilité technique au risque qu'elle fait porter à l'organisation. Classé 8e au Cyber Quest CTF de SANS Institute (octobre 2026).",
+    "hero.k1":"Recherche","hero.v1":"Stage de fin d'études, 6 mois","hero.k2":"Période","hero.v2":"Janvier → juillet 2027","hero.k3":"Lieu","hero.v3":"France ou Maroc, en présentiel","hero.k4":"Formation","hero.v4":"Cycle ingénieur CCN, Bac+5 (2027)","hero.k5":"Distinction","hero.v5":"8e (Top 10), Cyber Quest CTF — SANS Institute",
     "hero.ctaProjects":"Voir les projets","hero.ctaCv":"Télécharger le CV",
-    "m1":"accélération de la corrélation CTI (Cyber360)","m2":"vulnérabilités exploitées puis corrigées (TenantGuard)","m3":"contrôles ISO 27001:2022 évalués (GRC-as-Code)","m4":"paires de copies comparées (CheatTrace)",
+    "m0":"place au Cyber Quest CTF de SANS Institute (Top 10)","m1":"accélération de la corrélation CTI (Cyber360)","m2":"vulnérabilités exploitées puis corrigées (TenantGuard)","m3":"contrôles ISO 27001:2022 évalués (GRC-as-Code)","m4":"paires de copies comparées (CheatTrace)",
     "method.label":"Méthode","method.title":"De la vulnérabilité à la décision","method.lead":"Mes projets suivent la même chaîne. Une faille détectée dans le code n'a de valeur que si elle aboutit à une décision de traitement du risque.",
     "s1t":"Détecter","s1p":"Pipeline CI : SAST, SCA, secrets, scan d'image bloquant, DAST, SBOM.",
     "s2t":"Exploiter","s2p":"Pentest web/API : preuve d'exploitation, score CVSS v3.1, classement OWASP.",
@@ -17,7 +17,7 @@ const I18N = {
     "proj.label":"Projets","proj.title":"Dossiers techniques","proj.lead":"Pour chaque projet : le contexte, l'architecture, mon travail, les résultats mesurés et les limites connues.",
     "proj.fAll":"Tous","proj.fGrc":"GRC & conformité","proj.fOff":"Offensif","proj.fDev":"DevSecOps","proj.fAi":"IA & données","proj.open":"Lire le dossier →",
     "skills.label":"Compétences","skills.title":"Domaines et outils",
-    "certs.title":"Certifications","certs.credly":"Vérifier les badges sur Credly →",
+    "certs.title":"Certifications","certs.credly":"Vérifier les badges sur Credly →","dist.title":"Distinction","dist.ctf":"8e place internationale (Top 10) — Cyber Quest CTF",
     "lang.title":"Langues","lang.fr":"Français","lang.en":"Anglais","lang.ar":"Arabe","lang.native":"Langue maternelle",
     "asso.title":"Associations","asso.a1":"Bootcamp","asso.a2":"Trésorier",
     "path.label":"Parcours","path.title":"Formation et expériences",
@@ -31,10 +31,10 @@ const I18N = {
     "skip":"Skip to content",
     "nav.method":"Method","nav.projects":"Projects","nav.skills":"Skills","nav.path":"Background","nav.contact":"Contact","nav.cv":"CV",
     "hero.label":"Cybersecurity engineer · 2027 internship",
-    "hero.sub":"Final-year engineering student at ENSA El Jadida. I work on compliance and risk management (EBIOS RM, ISO 27001), security automation (DevSecOps), web/API pentesting and Cyber Threat Intelligence, with one constant goal: linking a technical vulnerability to the risk it creates for the organisation.",
-    "hero.k1":"Seeking","hero.v1":"6-month final-year internship","hero.k2":"Period","hero.v2":"January → July 2027","hero.k3":"Location","hero.v3":"France or Morocco, on-site","hero.k4":"Education","hero.v4":"Engineering degree, CCN (MSc level, 2027)",
+    "hero.sub":"Final-year engineering student at ENSA El Jadida. I work on compliance and risk management (EBIOS RM, ISO 27001), security automation (DevSecOps), web/API pentesting and Cyber Threat Intelligence, with one constant goal: linking a technical vulnerability to the risk it creates for the organisation. Ranked 8th at the SANS Institute Cyber Quest CTF (October 2026).",
+    "hero.k1":"Seeking","hero.v1":"6-month final-year internship","hero.k2":"Period","hero.v2":"January → July 2027","hero.k3":"Location","hero.v3":"France or Morocco, on-site","hero.k4":"Education","hero.v4":"Engineering degree, CCN (MSc level, 2027)","hero.k5":"Award","hero.v5":"8th (Top 10), Cyber Quest CTF — SANS Institute",
     "hero.ctaProjects":"See the projects","hero.ctaCv":"Download CV",
-    "m1":"faster CTI correlation (Cyber360)","m2":"vulnerabilities exploited then fixed (TenantGuard)","m3":"ISO 27001:2022 controls assessed (GRC-as-Code)","m4":"exam-sheet pairs compared (CheatTrace)",
+    "m0":"place at the SANS Institute Cyber Quest CTF (Top 10)","m1":"faster CTI correlation (Cyber360)","m2":"vulnerabilities exploited then fixed (TenantGuard)","m3":"ISO 27001:2022 controls assessed (GRC-as-Code)","m4":"exam-sheet pairs compared (CheatTrace)",
     "method.label":"Method","method.title":"From vulnerability to decision","method.lead":"My projects follow the same chain. A flaw found in code only matters if it ends in a risk-treatment decision.",
     "s1t":"Detect","s1p":"CI pipeline: SAST, SCA, secrets, blocking image scan, DAST, SBOM.",
     "s2t":"Exploit","s2p":"Web/API pentest: proof of exploitation, CVSS v3.1 score, OWASP mapping.",
@@ -44,13 +44,13 @@ const I18N = {
     "proj.label":"Projects","proj.title":"Technical dossiers","proj.lead":"For each project: context, architecture, my work, measured results and known limits.",
     "proj.fAll":"All","proj.fGrc":"GRC & compliance","proj.fOff":"Offensive","proj.fDev":"DevSecOps","proj.fAi":"AI & data","proj.open":"Read the dossier →",
     "skills.label":"Skills","skills.title":"Domains and tools",
-    "certs.title":"Certifications","certs.credly":"Verify badges on Credly →",
+    "certs.title":"Certifications","certs.credly":"Verify badges on Credly →","dist.title":"Award","dist.ctf":"8th place internationally (Top 10) — Cyber Quest CTF",
     "lang.title":"Languages","lang.fr":"French","lang.en":"English","lang.ar":"Arabic","lang.native":"Native",
     "asso.title":"Associations","asso.a1":"Bootcamp","asso.a2":"Treasurer",
     "path.label":"Background","path.title":"Education and experience",
     "contact.label":"Contact","contact.title":"Available for a final-year internship",
     "contact.lead":"Six months in France or Morocco, January to July 2027, internship agreement provided by ENSA. I am interested in GRC, DevSecOps, SOC, pentesting or CTI roles.",
-    "contact.write":"Send an email","contact.cvLong":"Detailed CV (PDF)","contact.phone":"Phone","contact.loc":"Location","contact.locv":"El Jadida, Morocco · open to France and Morocco",
+    "contact.write":"Send an email","contact.cvLong":"Detailed CV (French, PDF)","contact.phone":"Phone","contact.loc":"Location","contact.locv":"El Jadida, Morocco · open to France and Morocco",
     "foot.src":"Site source code",
     "m.problem":"Context","m.archi":"Architecture","m.did":"My work","m.limits":"Known limits","m.repo":"View the GitHub repo","m.role":"Role","m.when":"Period"
   }
@@ -58,6 +58,35 @@ const I18N = {
 
 /* ===================== PROJECTS ===================== */
 const PROJECTS = [
+  {
+    id:"ctf", cats:["offensive"], tag:"comp", tagLabel:{fr:"Compétition · SANS Institute",en:"Competition · SANS Institute"},
+    cover:null, coverHtml:"ctf",
+    title:{fr:"Cyber Quest CTF — 8e place",en:"Cyber Quest CTF — 8th place"},
+    sub:{fr:"Top 10 international d'une compétition de 72 h organisée par SANS Institute, sur tout le spectre de la sécurité offensive.",
+         en:"International Top 10 in a 72-hour competition run by SANS Institute, covering the full offensive-security spectrum."},
+    metric:{v:"8e / Top 10",fr:"classement international final",en:"final international ranking"},
+    chips:["Web & API","SSRF","Pwn / ROP","Reverse","Forensics","Crypto"],
+    when:{fr:"10/2026",en:"Oct 2026"},
+    role:{fr:"Compétiteur",en:"Competitor"},
+    labels:{archi:{fr:"Épreuves",en:"Challenges"},did:{fr:"Le défi qui m'a le plus appris",en:"The challenge that taught me the most"}},
+    problem:{fr:"Compétition internationale de 72 heures organisée par SANS Institute : une série de défis à résoudre en temps limité, sur l'ensemble du spectre de la sécurité offensive.",
+             en:"A 72-hour international competition run by SANS Institute: a series of time-boxed challenges across the whole offensive-security spectrum."},
+    archi:{fr:"Exploitation web et vulnérabilités d'API, exploitation binaire (buffer overflows, chaînes ROP), rétro-ingénierie de code obfusqué, forensics approfondie et cryptanalyse de chiffrements personnalisés.",
+           en:"Web exploitation and API vulnerabilities, binary exploitation (buffer overflows, ROP chains), reverse engineering of obfuscated code, deep-dive forensics and breaking custom cryptography."},
+    did:{fr:["Un défi SSRF à 400 points m'a bloqué six heures : la vulnérabilité était identifiée, mais il manquait l'identifiant qui débloquait la suite.",
+             "Plutôt que de forcer à l'aveugle, j'ai étudié les identifiants que l'application exposait déjà (U-01XX, I-30XX, W-50XX…) : chaque famille suivait une convention cachée, qui m'a permis de déduire les bons identifiants et de valider le défi.",
+             "Ce que j'en retiens : la persévérance compte, mais la reconnaissance de motifs compte davantage. Un système finit toujours par révéler sa logique à qui apprend à la lire."],
+         en:["A 400-point SSRF challenge held me for six hours: the vulnerability was clear, but I was missing the identifier that unlocked the next step.",
+             "Instead of brute-forcing, I studied the identifiers the application already exposed (U-01XX, I-30XX, W-50XX…): each family followed a hidden convention, which let me infer the right IDs and solve the challenge.",
+             "What I took away: persistence matters, but pattern recognition matters more. A system always ends up revealing its logic to whoever learns to read it."]},
+    proof:[{v:"8e",fr:"place, Top 10 international",en:"place, international Top 10"},
+           {v:"72 h",fr:"de compétition",en:"of competition"},
+           {v:"400",fr:"points pour le défi SSRF résolu",en:"points for the solved SSRF challenge"}],
+    limits:null,
+    gallery:[],
+    link:{href:"https://www.linkedin.com/posts/hamza-bahalloul-a30189342_cybersecurity-ctf-sans-share-7520488292639952898-M162/",fr:"Lire le post LinkedIn",en:"Read the LinkedIn post"},
+    repo:null
+  },
   {
     id:"cyber360", cats:["offensive","ia","grc"], tag:"stage", tagLabel:{fr:"Stage · AZunix",en:"Internship · AZunix"},
     cover:"assets/img/cyber360/dashboard_score.jpg",
@@ -98,32 +127,32 @@ const PROJECTS = [
   },
   {
     id:"tenantguard", cats:["devsecops","offensive"], tag:"perso", tagLabel:{fr:"Projet perso",en:"Personal project"},
-    cover:null, coverHtml:true,
+    cover:null, coverHtml:"tg",
     title:"TenantGuard",
     sub:{fr:"SaaS RAG multi-tenant rendu vulnérable, puis audité, durci et instrumenté pour la détection.",
          en:"Multi-tenant RAG SaaS made vulnerable, then audited, hardened and instrumented for detection."},
     metric:{v:"7 / 8",fr:"vulnérabilités exploitées, dont 2 critiques (CVSS 9,1)",en:"vulnerabilities exploited, incl. 2 critical (CVSS 9.1)"},
-    chips:["FastAPI","ChromaDB","GitLab CI","Semgrep","Trivy","OWASP ZAP","Loki/Grafana","pytest"],
+    chips:["FastAPI","ChromaDB","GitHub Actions","Semgrep","Trivy","OWASP ZAP","Loki/Grafana","pytest"],
     when:{fr:"08 → 10/2026",en:"Aug → Oct 2026"},
     role:{fr:"Dev, pentesteur, puis défenseur (solo)",en:"Dev, pentester, then defender (solo)"},
     problem:{fr:"Les SaaS B2B mêlant multi-tenant et RAG (IA générative) présentent une surface d'attaque hybride : une rupture d'isolation entre clients expose directement de la propriété intellectuelle. J'ai voulu éprouver le cycle complet : casser, prouver, corriger, détecter.",
              en:"B2B SaaS combining multi-tenancy and RAG (generative AI) has a hybrid attack surface: a broken tenant boundary leaks intellectual property directly. I wanted to exercise the full cycle: break, prove, fix, detect."},
-    archi:{fr:"Application RAG (FastAPI, PostgreSQL, ChromaDB, Gemini, Docker, conteneur non-root). Pipeline CI DevSecOps en 6 étapes : SAST (Semgrep), SCA (pip-audit), secrets (Gitleaks), scan d'image (Trivy, bloquant sur CRITICAL/HIGH), DAST (OWASP ZAP), SBOM (Syft). Les résultats SARIF alimentent le registre de risques GRC-as-Code. Détection temps réel : audit JSON structuré → Promtail → Loki → Grafana Unified Alerting.",
-           en:"RAG app (FastAPI, PostgreSQL, ChromaDB, Gemini, Docker, non-root container). 6-stage DevSecOps CI pipeline: SAST (Semgrep), SCA (pip-audit), secrets (Gitleaks), image scan (Trivy, blocking on CRITICAL/HIGH), DAST (OWASP ZAP), SBOM (Syft). SARIF results feed the GRC-as-Code risk register. Real-time detection: structured JSON audit → Promtail → Loki → Grafana Unified Alerting."},
+    archi:{fr:"Application RAG (FastAPI, PostgreSQL, ChromaDB, Gemini, Docker, conteneur non-root). Pipeline GitHub Actions en 6 jobs, actions épinglées par SHA : SAST (Semgrep), SCA (pip-audit), secrets (Gitleaks), scan d'image (Trivy, bloquant en cas de faille critique ou élevée corrigeable), DAST (OWASP ZAP, informatif), SBOM (Syft). Les résultats SARIF alimentent le registre de risques GRC-as-Code. Détection temps réel : audit JSON structuré → Promtail → Loki → Grafana Unified Alerting.",
+           en:"RAG app (FastAPI, PostgreSQL, ChromaDB, Gemini, Docker, non-root container). 6-job GitHub Actions pipeline with SHA-pinned actions: SAST (Semgrep), SCA (pip-audit), secrets (Gitleaks), image scan (Trivy, blocking on fixable critical or high findings), DAST (OWASP ZAP, informational), SBOM (Syft). SARIF results feed the GRC-as-Code risk register. Real-time detection: structured JSON audit → Promtail → Loki → Grafana Unified Alerting."},
     did:{fr:["Pentest web/API manuel (Burp Suite, jwt_tool, scripts PyJWT) : 8 vulnérabilités documentées, 7 exploitées avec preuves — forge de jetons JWT, expiration non vérifiée, IDOR/BOLA cross-tenant, upload non restreint & path traversal, fuite vectorielle cross-tenant dans le RAG, injection de prompt, secrets codés en dur.",
              "Classement OWASP API Top 10 (2023) et OWASP Top 10 LLM ; rapport d'audit avec scores CVSS v3.1.",
              "Remédiation puis vérification par rejeu de chaque exploitation, avec détection et correction d'une régression ; 25 tests automatisés (pytest).",
-             "10 règles de détection mappées MITRE ATT&CK sur logs structurés ; runbooks d'incident et post-mortem blameless après un exercice de fuite de données."],
+             "7 règles de détection mappées MITRE ATT&CK sur logs structurés, provisionnées en code ; simulation d'intrusion avec un MTTD de 46,5 s ; runbooks d'incident et post-mortem blameless."],
          en:["Manual web/API pentest (Burp Suite, jwt_tool, PyJWT scripts): 8 documented vulnerabilities, 7 exploited with proof — JWT token forgery, no expiry check, cross-tenant IDOR/BOLA, unrestricted upload & path traversal, cross-tenant vector leak in RAG, prompt injection, hard-coded secrets.",
              "Mapped to OWASP API Top 10 (2023) and OWASP Top 10 for LLM; audit report with CVSS v3.1 scores.",
              "Remediation then replay-verification of every exploit, including catching and fixing a regression; 25 automated tests (pytest).",
-             "10 MITRE ATT&CK-mapped detection rules on structured logs; incident runbooks and a blameless post-mortem after a simulated data-leak drill."]},
+             "7 MITRE ATT&CK-mapped detection rules on structured logs, provisioned as code; intrusion simulation with a 46.5 s MTTD; incident runbooks and a blameless post-mortem."]},
     proof:[{v:"7 / 8",fr:"vulnérabilités exploitées avec preuves",en:"vulnerabilities exploited with proof"},
-           {v:"5 / 7",fr:"attaques rejouées détectées par les règles",en:"replayed attacks caught by the rules"},
+           {v:"46,5 s",fr:"temps moyen de détection (MTTD) en simulation d'intrusion",en:"mean time to detect (MTTD) in an intrusion simulation"},
            {v:"25",fr:"tests automatisés (pytest)",en:"automated tests (pytest)"},
-           {v:"6",fr:"étapes CI avec gate bloquante",en:"CI stages with a blocking gate"}],
-    limits:{fr:"Honnêtement documenté : 5 attaques rejouées sur 7 sont détectées ; la reconnaissance non authentifiée et les jetons forgés restent des angles morts d'audit. En l'absence de table de révocation, neutraliser un jeton volé impose une rotation globale du secret.",
-            en:"Honestly documented: 5 of 7 replayed attacks are detected; unauthenticated recon and forged tokens remain audit blind spots. Without a revocation store, killing a stolen token forces a global secret rotation."},
+           {v:"3 / 4",fr:"phases d'attaque détectées (dont 1 partielle)",en:"attack phases detected (1 partially)"}],
+    limits:{fr:"Honnêtement documenté : 3 phases d'attaque sur 4 sont détectées, dont une partiellement ; la reconnaissance non authentifiée et les jetons forgés restent des angles morts d'audit. En l'absence de table de révocation, neutraliser un jeton volé impose une rotation globale du secret.",
+            en:"Honestly documented: 3 of 4 attack phases are detected, one only partially; unauthenticated recon and forged tokens remain audit blind spots. Without a revocation store, killing a stolen token forces a global secret rotation."},
     gallery:[],
     extraHtml:true,
     repo:"https://github.com/h-4mza/TenantGuard"
@@ -283,8 +312,8 @@ function tenantguardExtra(L){
     ["Fuite vectorielle cross-tenant (RAG)","LLM02","6.5",L==="fr"?"Moyen":"Medium"]
   ];
   const det = L==="fr"
-    ? [["CROSS_TENANT_ACCESS","Critical","T1078 / T1190"],["ACCOUNT_TAKEOVER_SUSPECT","Critical","T1110"],["BRUTE_FORCE_LOGIN","High","T1110"],["CREDENTIAL_STUFFING","High","T1110.004"],["EXFILTRATION_VOLUME","Medium","T1530"],["TOKEN_ABUSE","Medium","T1528"]]
-    : [["CROSS_TENANT_ACCESS","Critical","T1078 / T1190"],["ACCOUNT_TAKEOVER_SUSPECT","Critical","T1110"],["BRUTE_FORCE_LOGIN","High","T1110"],["CREDENTIAL_STUFFING","High","T1110.004"],["EXFILTRATION_VOLUME","Medium","T1530"],["TOKEN_ABUSE","Medium","T1528"]];
+    ? [["CROSS_TENANT_ACCESS","Critical","T1078 / T1190"],["ACCOUNT_TAKEOVER_SUSPECT","Critical","T1110"],["BRUTE_FORCE_LOGIN","High","T1110"],["CREDENTIAL_STUFFING","High","T1110.004"],["EXFILTRATION_VOLUME","Medium","T1530"],["TOKEN_ABUSE","Medium","T1528"],["UPLOAD_ABUSE","Medium","T1105"]]
+    : [["CROSS_TENANT_ACCESS","Critical","T1078 / T1190"],["ACCOUNT_TAKEOVER_SUSPECT","Critical","T1110"],["BRUTE_FORCE_LOGIN","High","T1110"],["CREDENTIAL_STUFFING","High","T1110.004"],["EXFILTRATION_VOLUME","Medium","T1530"],["TOKEN_ABUSE","Medium","T1528"],["UPLOAD_ABUSE","Medium","T1105"]];
   const sevClass = s => /Crit/.test(s)?"crit":(/High|Élev/.test(s)?"warn":"muted");
   return `
   <div class="m-block">
@@ -303,6 +332,13 @@ function tenantguardExtra(L){
   </div>`;
 }
 
+function ctfCover(){
+  return `<div class="tg-cover ctf-cover" aria-hidden="true">
+    <div class="ctf-rank mono"><span class="ctf-k">FINAL RANK</span><span class="ctf-n">#8</span><span class="ctf-k">TOP 10 · 72 H</span></div>
+    <div class="tg-term mono"><span>SANS Institute — Cyber Quest CTF</span><span class="ok">✔ web · api · ssrf · pwn · reverse · forensics · crypto</span></div></div>`;
+}
+const COVERS = {tg:()=>tgCover(), ctf:()=>ctfCover()};
+
 function tgCover(){
   const st=["SAST","SCA","Secrets","Trivy","DAST","SBOM"];
   return `<div class="tg-cover" aria-hidden="true">
@@ -313,9 +349,9 @@ function tgCover(){
 /* ===================== SKILLS ===================== */
 const SKILLS = [
   {t:{fr:"Gouvernance, risques et conformité",en:"Governance, risk and compliance"},items:"ISO 27001:2022, EBIOS RM, NIS2, RGPD, HDS, NIST CSF 2.0, déclaration d'applicabilité (SoA), modélisation STRIDE"},
-  {t:{fr:"Sécurité offensive",en:"Offensive security"},items:"Pentest web/API, Burp Suite, jwt_tool, ffuf, OWASP API Top 10, OWASP Top 10 LLM, CVSS v3.1, Kali Linux"},
+  {t:{fr:"Sécurité offensive",en:"Offensive security"},items:"Ethical hacking, pentest web/API (Burp Suite, jwt_tool, ffuf), exploitation binaire (buffer overflow, chaînes ROP), reverse engineering, cryptanalyse, OWASP API Top 10, OWASP Top 10 LLM, CVSS v3.1, Kali Linux"},
   {t:{fr:"Détection et renseignement",en:"Detection and intelligence"},items:"MITRE ATT&CK, CTI, EASM, Loki, Promtail, Grafana, Wireshark, digital forensics"},
-  {t:{fr:"DevSecOps et CI/CD",en:"DevSecOps and CI/CD"},items:"GitLab CI, Semgrep, Gitleaks, pip-audit, Trivy, OWASP ZAP, SBOM (Syft), SARIF, pytest"},
+  {t:{fr:"DevSecOps et CI/CD",en:"DevSecOps and CI/CD"},items:"GitHub Actions, GitLab CI, Semgrep, Gitleaks, pip-audit, Trivy, OWASP ZAP, SBOM (Syft), SARIF, pytest"},
   {t:{fr:"Développement",en:"Development"},items:"Python (FastAPI, Flask, Celery, SQLAlchemy, Typer), SQL, TypeScript, React, Node.js, Solidity"},
   {t:{fr:"Systèmes, réseaux et cloud",en:"Systems, networks and cloud"},items:"Linux, Docker, PostgreSQL, Redis, TCP/IP, VLAN, IPsec, FortiGate, Active Directory, GNS3"},
   {t:{fr:"IA et données",en:"AI and data"},items:"LLM (Gemini), RAG, CrewAI, SBERT, TF-IDF, OCR multimodal, ChromaDB, NetworkX, n8n"}
@@ -328,6 +364,11 @@ const TIMELINE = [
    org:"ENSA El Jadida (ENSAJ)",
    p:{fr:"Crypto appliquée, pentest & forensics, gestion des risques, gouvernance SI, sécurité réseaux/cloud/BDD, DevOps, sécurité des modèles d'IA, OT/IoT, blockchain, Machine Learning. Diplôme d'ingénieur (Bac+5), juillet 2027.",
       en:"Applied crypto, pentest & forensics, risk management, IS governance, network/cloud/DB security, DevOps, AI-model security, OT/IoT, blockchain, Machine Learning. Engineering degree (MSc level), July 2027."}},
+  {kind:"comp",when:{fr:"10/2026",en:"Oct 2026"},
+   title:{fr:"8e place (Top 10) — Cyber Quest CTF",en:"8th place (Top 10) — Cyber Quest CTF"},
+   org:"SANS Institute",
+   p:{fr:"Compétition internationale de 72 h : exploitation web et API, exploitation binaire (buffer overflows, chaînes ROP), rétro-ingénierie, forensics et cryptanalyse.",
+      en:"72-hour international competition: web and API exploitation, binary exploitation (buffer overflows, ROP chains), reverse engineering, forensics and cryptanalysis."}},
   {kind:"xp",when:{fr:"07 → 09/2026 · Rabat",en:"Jul → Sep 2026 · Rabat"},
    title:{fr:"Stagiaire Ingénieur Cybersécurité — EASM & CTI",en:"Cybersecurity Engineering Intern — EASM & CTI"},
    org:"AZunix",
@@ -356,7 +397,7 @@ function renderProjects(filter="all"){
   grid.innerHTML = list.map(p=>`
     <article class="pcard" data-id="${p.id}" tabindex="0" role="button" aria-label="${tx(p.title)}">
       <div class="pcard-cover">
-        ${p.coverHtml?tgCover():`<img src="${p.cover}" alt="" loading="lazy" />`}
+        ${p.coverHtml?COVERS[p.coverHtml]():`<img src="${p.cover}" alt="" loading="lazy" />`}
       </div>
       <div class="pcard-body">
         <div class="pmeta"><span class="kind">${tx(p.tagLabel)}</span><span>${tx(p.when)}</span></div>
@@ -380,7 +421,7 @@ function renderSkills(){
 function renderTimeline(){
   document.getElementById("timeline").innerHTML = TIMELINE.map(e=>`
     <div class="tl-item">
-      <div class="tl-when">${tx(e.when)}<span class="tl-kind">${e.kind==="xp"?(LANG==="fr"?"Expérience":"Experience"):(LANG==="fr"?"Formation":"Education")}</span></div>
+      <div class="tl-when">${tx(e.when)}<span class="tl-kind">${({xp:{fr:"Expérience",en:"Experience"},edu:{fr:"Formation",en:"Education"},comp:{fr:"Compétition",en:"Competition"}})[e.kind][LANG]}</span></div>
       <div><h3>${tx(e.title)}</h3><div class="tl-org">${e.org}</div><p>${tx(e.p)}</p></div>
     </div>`).join("");
 }
@@ -410,11 +451,12 @@ function openModal(id){
     </dl>
     <div class="m-stats">${p.proof.map(s=>`<div class="m-stat"><b>${s.v}</b><span>${tx(s)}</span></div>`).join("")}</div>
     <div class="m-block"><h4>${T("m.problem")}</h4><p>${tx(p.problem)}</p></div>
-    <div class="m-block"><h4>${T("m.archi")}</h4><p>${tx(p.archi)}</p></div>
-    <div class="m-block"><h4>${T("m.did")}</h4><ul>${tx(p.did).map(d=>`<li>${d}</li>`).join("")}</ul></div>
+    <div class="m-block"><h4>${p.labels?.archi?tx(p.labels.archi):T("m.archi")}</h4><p>${tx(p.archi)}</p></div>
+    <div class="m-block"><h4>${p.labels?.did?tx(p.labels.did):T("m.did")}</h4><ul>${tx(p.did).map(d=>`<li>${d}</li>`).join("")}</ul></div>
     ${p.extraHtml?tenantguardExtra(LANG):""}
     ${gallery}
-    <div class="m-block limits"><h4>${T("m.limits")}</h4><p>${tx(p.limits)}</p></div>
+    ${p.limits?`<div class="m-block limits"><h4>${T("m.limits")}</h4><p>${tx(p.limits)}</p></div>`:""}
+    ${p.link?`<a class="btn btn-line m-repo" href="${p.link.href}" target="_blank" rel="noopener">${tx(p.link)}</a>`:""}
     ${p.repo?`<a class="btn btn-line m-repo" href="${p.repo}" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 5 18 5.3 18 5.3c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>${T("m.repo")}</a>`:""}
   `;
   modalBody.querySelectorAll("img[data-full]").forEach(im=>im.addEventListener("click",()=>openLightbox(im.dataset.full)));
@@ -445,6 +487,7 @@ function applyLang(){
     if(v!=null) el.textContent = v;
   });
   document.querySelectorAll("#langToggle [data-lang]").forEach(s=>s.classList.toggle("on",s.dataset.lang===LANG));
+  document.querySelectorAll("[data-cv-fr]").forEach(a=>{a.href = LANG==="en" ? a.dataset.cvEn : a.dataset.cvFr;});
   renderProjects(currentFilter);
   renderSkills(); renderTimeline();
 }
